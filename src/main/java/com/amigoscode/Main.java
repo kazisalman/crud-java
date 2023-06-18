@@ -36,7 +36,7 @@ public class Main {
         cust.setAge(request.age());
         cust.setEmail(request.email());
         customerRepository.save(cust);
-        }
+    }
 
     @GetMapping("/api/v1/users")
     public List<Customer> getCustomers(){
