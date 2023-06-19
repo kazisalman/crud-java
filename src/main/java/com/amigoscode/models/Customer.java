@@ -1,4 +1,4 @@
-package com.amigoscode;
+package com.amigoscode.models;
 
 import jakarta.persistence.*;
 
