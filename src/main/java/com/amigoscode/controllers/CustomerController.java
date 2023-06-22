@@ -2,7 +2,7 @@ package com.amigoscode.controllers;
 
 import com.amigoscode.models.Customer;
 import com.amigoscode.models.NewCustomerRequest;
-import com.amigoscode.response.ResponseHandler;
+import com.amigoscode.utils.ResponseHandler;
 import com.amigoscode.services.CustomerService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
